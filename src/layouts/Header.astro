@@ -1,0 +1,22 @@
+---
+import HeaderResponsive from '../components/HeaderResponsive'
+---
+
+<header class="sticky top-0 w-full bg-slate-200 p-2">
+    <nav
+        class="[&>div>button]:p-2 [&>div>button]:w-40 [&>div>button]:rounded-xl w-full flex justify-evenly"
+    >
+        <div class="logo">
+            <img src="" alt="" />
+        </div>
+        <div class="buttons">
+            <HeaderResponsive />
+        </div>
+    </nav>
+
+    <style>
+        * {
+            transition: all 0.3s;
+        }
+    </style>
+</header>
